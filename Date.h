@@ -12,8 +12,11 @@ private:
 public:
 	Date();
 	Date(int d, int m, int y);
+	void Input();
 	void Show();
 	int operator-(Date op2);
+	Date operator+(int op3);
+	void operator=(Date op4);
 	~Date();
 };
 
